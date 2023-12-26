@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+#left{
+    
+    height: 100%;
+    width: 65%;
+    color: rgba(14, 1, 1, 0.823);
+}
+#input{
+    width: 90%;
+    padding: 5px;
+}
+#contact{
+    height: 85vh;
+    width: 100%;
+}

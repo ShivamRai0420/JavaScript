@@ -1,0 +1,134 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    overflow-x:hidden ; 
+
+
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+} 
+#main{
+    position: relative;
+    overflow-x:hidden ; 
+}
+#nav{
+    position: absolute;
+    top: 10%;
+    /* left: 3.7%; */
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 100vw;
+    /* background-color: rgb(108, 8, 8);  */
+
+}
+#nav>h1{
+    position: absolute;
+    top: 5%;
+    left: 8%; 
+    color: white;
+
+}
+#menu{
+    position: absolute;
+     /* top: 5%; */
+    right: 15%;  
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(7, 148, 242);
+    border-radius: 50%;
+    /* color: rgb(92, 13, 227); */
+    background-color: rgb(42, 165, 85);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+}
+#menu>i{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+}
+#page1{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(40, 5, 180);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+#page2{
+    position: relative;
+    min-height: 100vh; 
+    width: 100vw;
+    background-color: white;
+    /* display: flex;
+    justify-content: center;
+
+    align-items: center; */
+}
+
+#left{
+    /* background-color: rgb(255, 255, 255); */
+    width: 50vw;
+    height: 100vh;
+    padding: 5%;
+    
+}
+ #left>h1
+{
+    position: relative;
+    left: 8%; 
+    top: 30%;
+    font-size: 80px;
+    color: white;
+
+} 
+#page2>h2{
+    color: blue;
+    font-size: 50px;
+    width:70vw;
+    line-height: 70px;
+    margin-top: 5vw;
+    margin-bottom: 10vh;
+    margin-left: 5vw;
+}
+.page2img{
+
+    height: 80vh;
+    width: 90vw;
+    /* background-color: red; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+
+}
+.page2img>img{
+
+    height: 80vh;
+    width: 90vw;
+    /* background-color: red; */
+    /* margin-left: auto;
+    margin-right: auto; */
+
+}
+.page2img>h3{
+    position: absolute;
+    bottom: 15vh;
+    left: 10%;
+    color: white;
+    font-size: 40px;
+}
+
+

@@ -1,0 +1,33 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#left{
+    height: 30%;
+    width: 100%;
+    background-color:red;
+}
+#right{
+    position: absolute;
+    overflow: hidden;
+    width: 70%;
+    height: 100%;
+    background-color: green;
+}
+#top{
+    width: 100%;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(red, green, blue);
+}

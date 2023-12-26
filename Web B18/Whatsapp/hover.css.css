@@ -1,0 +1,29 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    font-family: gilroy;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    font-size: 40px;
+    color: blue;
+}
+/* #button,button{
+    position: relative;
+    background-color: #f39c12;
+} */
+#main:hover{
+    background-color: rgb(189, 9, 9);
+    color: black;
+}

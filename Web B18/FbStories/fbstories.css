@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+html.body{
+    height: 100%;
+    width: 100%;
+}
+#stories{
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+}
+.story{
+    position: absolute;
+    position: relative;
+    height: 130px;
+    width: 90px;
+    background-color: red;
+}
+img{
+
+    height: 130px;
+    width: 90px;
+}
+#chhotupic{
+    position: absolute;
+    top: 8px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: green;
+}

@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#stories{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.story{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    /* border: 2px solid black; */
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+.photo{
+    position: relative;
+    height: 95px;
+    width: 95px;
+    /* border: 2px solid red; */
+    border-radius: 50%;
+}
+img{
+    height: 95px;
+    width: 95px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-position: center;
+}
