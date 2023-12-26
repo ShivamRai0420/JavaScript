@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: voyage;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+#main
+{
+    height: 100%;
+    width: 100%;
+    background-color: silver;
+    background-size: cover;
+    background-position: center;
+}
+#one
+{
+    font-size: 250px;
+    font-weight: 100;
+    line-height: 150px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    margin-bottom: 20px;
+
+}
+#two
+{
+    font-size: 250px;
+    font-weight: 100;
+    line-height: 150px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-bottom: 10px;
+}
+#firstimg{
+    position: absolute;
+    width: 120px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+}    
+#secimg{
+    position: absolute;
+    width: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+}
+#main #firstimg
+{
+    transform: translate(-50%,-50%) rotate(5deg);
+}
+#main #secimg
+{
+    transform: translate(-50%,-50%) rotate(-5deg);
+}

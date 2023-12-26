@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+#main
+{
+    width: 100%;
+    height: 100%;
+}
+#card
+{
+    position: absolute;
+    width: 25%;
+    height: 70%;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    background-color: brown;
+    background-position: center;
+    background-size: cover;
+    transform: translate(-50%,-50%);
+}
+#innercard{
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    background-image: url(thar.jpg);
+    background-color: green;
+    background-position: center;
+    background-size: cover;
+    transform: translate(-50%,-50%);
+    transition: all ease-in .3s;
+}
+#card:hover #innercard
+{
+    transform:  translate(-50%,-50%) scale(2) ;
+}

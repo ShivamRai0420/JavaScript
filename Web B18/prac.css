@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+
+}
+#main
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(thar.jpg);   
+    background-position: center;
+    background-size: cover;
+}
+#side
+{
+    width: 30%;
+    height: 100%;
+}
+#upper{
+  
+    position: relative;
+    width: 100%;
+    height: 50%;
+    color: rgb(255, 0, 30);
+    background-position: center;
+    background-size: cover;
+
+}
+#text
+{
+    position: absolute;
+    top: 60%;
+    left: 50px;
+    color: black;
+
+}
+#text h3{
+    color: red;
+}
+#lower{
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    background-size: cover;
+}
+#lower p{
+    padding: 20%;
+    top: 80%;
+}
+#lower button{
+    position: absolute;
+    left: 70px;
+    top: 80%;
+    background-color: black;
+    color: white;
+    width: 70px;
+    height: 20px;
+    border: none;
+    padding: 5px;
+}
+#left{
+
+    height: 30%;
+    width: 10%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background-image: url(skr2.jpg);
+    background-color: gray;
+    background-size: cover;
+    
+}

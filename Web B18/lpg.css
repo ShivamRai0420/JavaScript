@@ -1,0 +1,112 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: voyage;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main
+{
+    width: 100%;
+    min-height: 100vh;
+}
+#lpg
+{
+    height: 100vh;
+    width: 100%;
+    background-color: brown;
+}
+#lpg #one
+{
+   position: absolute;
+   font-size: 250px;
+   font-weight: 100;
+    top: 10vh; 
+    left: 50%; 
+    transform: translate(-50%,0);
+}
+#lpg #two
+{
+   position: absolute;
+   font-size: 250px;
+   font-weight: 100;
+    bottom: 10vh; 
+    left: 50%; 
+    transform: translate(-50%,0);
+}
+#lpg #img1{
+    position: absolute;
+    width: 120px;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    z-index: 99;
+}
+#lpg #img2{
+    position: absolute;
+    width: 160px;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    z-index: 99;
+}
+#lpg #img1{
+    transform: translate(-50%,0%) rotate(5deg);
+}
+#lpg #one:hover{
+    color: blue;
+}
+#lpg #two:hover{
+    color: green;
+}
+#lpg #img2{
+    transform: translate(-50%,0%) rotate(-5deg);
+}
+#sec1
+{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: green;
+}
+#sec1 p{
+    width: 50vh;
+    padding: 8vh;
+}
+#sec1 #dwn{
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    width: 50vh;
+    padding: 8vh;
+}
+#sec1 #circle{
+    position: absolute;
+    right: 5%;
+    top: 4%;
+    width: 70px;
+    height: 70px;
+    border: 3px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+
+  
+}
+#sec2
+{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: yellow;
+}
+#sec2 #border
+{
+   width: 100%;
+   background-color: aqua; 
+}
