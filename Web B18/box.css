@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body
+{
+    height: 100%;
+    width: 100%;
+}
+#main
+{
+    height: 100%;
+    width: 100%;
+}
+#box{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    background-color: coral;
+    /* animation-name: movebox; */
+    /* animation-duration: 2s; */
+    /* animation-iteration-count: 5; */
+    animation: movebox 2s   5 ;
+
+}
+@keyframes movebox {
+    from{
+        left: 0%;
+        top: 0%;
+    }
+    to{
+        left: 500px;
+        top: 0%;
+    }
+    
+}

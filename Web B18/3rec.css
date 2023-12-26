@@ -1,0 +1,78 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+#main
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1648737966762-1c8921f9b976?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80);
+    background-size: cover;
+    
+}
+#sideDiv
+{
+    width: 30%;
+    height: 100%;
+    padding: 10px;
+    background-color: rgb(252, 244, 244);
+
+}
+#top
+{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    height: 50%;
+    width: 10%;
+}
+#upper
+{
+    width: 100%;
+    height: 50%;
+    background-image: url(https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#lower
+{    width: 100%;
+    height: 50%;
+    background-color: rgba(199, 191, 191, 0.395);
+    padding: 7px;
+}
+#lower h3
+{
+    margin-top: 5px;
+    line-height: 20px;
+
+}
+#lower p
+{
+    margin-top: 2px;
+    margin-bottom: 6px;
+    font-size: 12px; ;
+}
+#main h1{
+    font-size: 50px;
+    }
+    
+    #main p{
+        margin-top: 35px;
+    }
+    
+    button{
+        background-color: black;
+        color: white;
+        width: 130px;
+        height: 45px;
+        margin-top: 35px;
+        border: none;
+    }
+    

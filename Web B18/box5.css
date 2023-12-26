@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body
+{
+    height: 100%;
+    width: 100%;
+}
+#main
+{
+    height: 100%;
+    width: 100%;
+}
+.box{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: coral;
+    animation-name: movebox;
+    animation-duration: 2s;
+    animation-iteration-count: 5;
+
+}
+#box1{
+    background-color: coral;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+#box2{
+    background-color: coral;
+    animation-timing-function: ease-out;
+    animation-fill-mode: backwards;
+}
+#box3{
+    background-color: yellow;
+    animation-fill-mode: forwards;
+}
+#box4{
+    background-color: coral;
+    animation-timing-function: ease-in;
+}
+#box5{
+    background-color: green;
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+@keyframes movebox {
+    from{
+        left: 0%;
+    
+    }
+    to{
+        left: 500px;
+    
+    }
+    
+}

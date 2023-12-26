@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html body
+{
+    height: 100%;
+    width: 100%;
+}
+
+#main
+{
+    height:100%;
+    width: 100%;
+   background-image: url(window11.jpg);
+   background-size: cover;
+   background-position: center;
+
+}
+
+#h1{
+    
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    color:black;
+    font-family: "gilroy";
+    font-size: 70px;
+    font-weight: 50px;
+    letter-spacing: 5px;
+    
+}
+
