@@ -1,0 +1,28 @@
+*{
+    height: 100%;
+    width: 100%;
+}
+html,body{
+    font-family: sans-serif;
+  }
+  
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .product-form {
+    margin-top: 20px;
+  }
+  
+  .product-name, .product-price, .product-quantity {
+    width: 200px;
+  }
+  
+  .total-price {
+    margin-top: 20px;
+  }
+  
+  #total-price {
+    font-weight: bold;
+  }

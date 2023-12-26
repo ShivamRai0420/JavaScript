@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2-D</title>
+</head>
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    html,body{
+        height: 100%;
+        width: 100%;
+    }
+    .box{
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        background-color: aquamarine;
+        display: flex;
+        /* margin: auto; */
+        top: 30%;
+        left: 45%;
+    
+        align-items: center;
+        justify-content: center;
+
+        transition: all 1s linear 1s;
+    }
+    .box:hover{
+        /* transform: rotate(360deg); */
+        /* transform: scale(2); */
+        /* transform: skew(-22deg); */
+        
+        transform: translate(100px);
+        
+    }
+</style>
+<body>
+    <h1>Hover me</h1>
+    <div class="box">
+        <p>My name is Shivam</p>
+    </div>
+</body>
+</html>

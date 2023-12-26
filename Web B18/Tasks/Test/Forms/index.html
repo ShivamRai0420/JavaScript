@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- label:-atteched text or content. label for=" " and id="" of input always equal -->
+
+    <form onsubmit="takevalue()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="enter user name">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="enter email">
+        <br>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="enter password">
+        <br>
+        <br>
+        <label for="Radio">Gender:</label>
+        <label for="Male">Male</label>
+        <input type="radio" id="Male" value="Rdio1">
+
+        <label for="Feale">Female</label>
+        <input type="radio" id="Female" value="Rdio2">
+        <br>
+        <br>
+
+        <!-- Selector Dropdown -->
+        <label for="Selector">Choose course</label>
+        <select name="Courses" id="Selector">
+            <option value="B-tech">B.E</option>
+            <option value="B-tech">B.Ed</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        function takevalue(){
+            var name=document.getElementById("name").value;
+            var email=document.getElementById("email").value;
+            var password=document.getElementById("password").value;
+
+            document.write("your name= "+name+ "<br>");
+            document.write("your email= "+email+ "<br>");
+            document.write("your password= "+password+ "<br>");
+        }
+    </script>
+</body>
+</html>

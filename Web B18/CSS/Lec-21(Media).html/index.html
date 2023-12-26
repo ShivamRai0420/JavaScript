@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            background-color: aqua;
+            display: flex;
+        }
+        #img1{
+            height: 200px;
+            width: 200px;
+        }
+        @media(max-width:500px){
+            .container{
+                flex-direction: column;
+            }
+        }
+        @media(min-width:300px){
+            .container{
+                flex-direction: row;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="boxleft">
+            <div id="text1">Lorem ipsum dolor sit amet.</div>
+            <div id="text2">Lorem ipsum dolor sit amet.</div>
+        </div>
+        <img id="img1" src="hero-bg.jpg.jpeg" alt="">
+    </div>
+</body>
+</html>

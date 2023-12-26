@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        html,body{
+            height:100%;
+            width: 100%;  
+        }
+        #main{
+            height:100%;
+            width: 100%;
+            background-color: aqua;
+        }
+        .box{
+            position: relative;
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            margin: 5px;
+            border: 2px solid black;
+            /* animation-name: movebox;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-delay: 2s;
+            animation-iteration-count: 2;
+            animation-direction: normal;
+            animation-fill-mode: forwards; */
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            /* animation: movebox 2s linear 2s 2 normal forwards; */
+        }
+        #box1{
+            background-color: blue;
+        }
+        #box2{
+            background-color: coral;
+            animation: movebox 2s linear 2s 2 normal forwards;
+
+        }
+        @keyframes movebox{
+            from{
+                top: 0;
+                left: 0;
+            }
+            to{
+                top: 0;
+                left: 1200px;
+                background-color: black;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0%;
+        paadding: 0%;
+        box-sizing: border-box;
+    }
+    html, body
+    {
+        height: 100%;
+        width: 100%;
+    }
+    #main{
+        height: 100%;
+        width: 100%;
+        background-color: aqua;
+    }
+    .box{
+        position: relative;
+        height: 100px;
+        width: 100px;
+        background-color: coral;
+        border: 2px solid black;
+        margin: 10px ;
+        /* animation-name: rightMovements;
+        animation-duration: 2s;
+        animation-direction:alternate;
+        animation-iteration-count: 2;    */
+    }
+    #box1{
+        background-color: blue;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in-out;
+
+    }
+    #box2{
+        background-color: green;
+        animation-fill-mode: backwards;
+        animation-timing-function: ease-in;
+
+    }
+    #box3{
+        background-color: yellow;
+        animation-name: box3;
+        animation-duration: 2s;
+        animation-direction:alternate;
+        animation-iteration-count: 2;
+
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-out;
+
+    }
+    @keyframes box3{
+        from{
+                top: 0;
+                left: 0;
+                rotate: 50%;
+            }
+
+            to{
+                top: 0;
+                left: 1200px;
+            }
+    }
+</style>
+<body>
+    <div id="main">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+    </div>
+</body>
+</html>
